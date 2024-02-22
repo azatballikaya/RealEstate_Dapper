@@ -1,0 +1,50 @@
+﻿@using RealEstate_Dapper_UI.Areas.Admin.Dtos.CategoryDtos
+@model List<ResultCategoryDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h6 class="mb-4">Responsive Table</h6>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Kategori Adı</th>
+                                <th scope="col">Durum</th>
+                                <th scope="col">Güncelle</th>
+                                <th scope="col">Sil</th>
+                              
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th scope="row">@item.CategoryID</th>
+                                    <td>@item.CategoryName</td>
+                                    @{
+                                        string word = item.CategoryStatus ? "Aktif" : "Pasif";
+                                    }
+                                    <td>@word</td>
+                                    <td>jhon@email.com</td>
+                                    <td><a asp-area="Admin" asp-controller="Category" asp-action="UpdateCategory" asp-route-id="@item.CategoryID" class="btn btn-outline-success">Güncelle</a></td>
+                                    <td><a asp-area="Admin" asp-controller="Category" asp-action="DeleteCategory" asp-route-id="@item.CategoryID" class="btn btn-outline-danger">Sil</a></td>
+                                   
+                                </tr>
+                            }
+
+
+                        </tbody>
+                        <a asp-area="Admin" asp-controller="Category" asp-action="CreateCategory" class="btn btn-outline-primary">Yeni Kategori Ekle</a>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
