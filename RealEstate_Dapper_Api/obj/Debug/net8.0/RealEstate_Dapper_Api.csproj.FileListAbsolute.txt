@@ -67,3 +67,4 @@ C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_Api\bin\Debu
 C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_Api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_Api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_Api\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_Api\obj\Debug\net8.0\RealEstate_Dapper_Api.sourcelink.json

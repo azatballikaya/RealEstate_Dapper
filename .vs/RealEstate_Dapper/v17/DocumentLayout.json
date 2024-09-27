@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\shared\\components\\_adminlayoutsidebar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\views\\employee\\updateemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\employee\\updateemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\views\\shared\\components\\_adminlayoutheader\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\shared\\components\\_adminlayoutheader\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,61 +32,35 @@
               "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutSidebar\\Default.cshtml",
               "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutSidebar\\Default.cshtml",
               "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutSidebar\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T09:43:26.109Z",
+              "WhenOpened": "2024-09-27T14:49:42.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Title": "UpdateEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Employee\\UpdateEmployee.cshtml",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Employee\\UpdateEmployee.cshtml",
+              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Employee\\UpdateEmployee.cshtml",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Employee\\UpdateEmployee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T09:27:17.171Z",
+              "WhenOpened": "2024-09-27T14:44:05.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutHeader\\Default.cshtml",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutHeader\\Default.cshtml",
-              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutHeader\\Default.cshtml",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutHeader\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T09:26:36.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwFIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T09:27:10.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T09:15:39.091Z",
+              "WhenOpened": "2024-09-27T14:23:27.301Z",
               "EditorCaption": ""
             }
           ]

@@ -223,3 +223,4 @@ C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\obj\Debug
 C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\obj\Debug\net8.0\RealEstate_Dapper_UI.pdb
 C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\obj\Debug\net8.0\RealEstate_Dapper_UI.genruntimeconfig.cache
 C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\obj\Debug\net8.0\ref\RealEstate_Dapper_UI.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\obj\Debug\net8.0\RealEstate_Dapper_UI.sourcelink.json
