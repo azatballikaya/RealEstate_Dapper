@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DC731AFD-9DAA-436B-B54F-F8EFD0430E9A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_api\\repositories\\statisticrepository\\statisticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC731AFD-9DAA-436B-B54F-F8EFD0430E9A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\repositories\\statisticrepository\\statisticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC731AFD-9DAA-436B-B54F-F8EFD0430E9A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_api\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC731AFD-9DAA-436B-B54F-F8EFD0430E9A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC731AFD-9DAA-436B-B54F-F8EFD0430E9A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_api\\repositories\\statisticrepository\\istatisticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC731AFD-9DAA-436B-B54F-F8EFD0430E9A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\repositories\\statisticrepository\\istatisticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\views\\shared\\components\\_adminlayoutsidebar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\shared\\components\\_adminlayoutsidebar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,24 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IStatisticRepository.cs",
+              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\Repositories\\StatisticRepository\\IStatisticRepository.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Repositories\\StatisticRepository\\IStatisticRepository.cs",
+              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\Repositories\\StatisticRepository\\IStatisticRepository.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Repositories\\StatisticRepository\\IStatisticRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:46:11.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StatisticRepository.cs",
+              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\Repositories\\StatisticRepository\\StatisticRepository.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Repositories\\StatisticRepository\\StatisticRepository.cs",
+              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\Repositories\\StatisticRepository\\StatisticRepository.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Repositories\\StatisticRepository\\StatisticRepository.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwGAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:07:03.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:05:36.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutSidebar\\Default.cshtml",
               "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutSidebar\\Default.cshtml",
               "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutSidebar\\Default.cshtml",
               "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Shared\\Components\\_AdminLayoutSidebar\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-27T14:49:42.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UpdateEmployee.cshtml",
               "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\Employee\\UpdateEmployee.cshtml",
               "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\Employee\\UpdateEmployee.cshtml",
@@ -47,12 +98,11 @@
               "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\Employee\\UpdateEmployee.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T14:44:05.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T14:44:05.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\EmployeeController.cs",
@@ -60,8 +110,7 @@
               "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAQwFIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T14:23:27.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T14:23:27.301Z"
             }
           ]
         }
