@@ -92,44 +92,83 @@ namespace RealEstate_Dapper_Api.Repositories.StatisticRepository
             }
         }
 
-        public Task<string> CityNameByMaxProductCountAsync()
+        public async Task<string> CityNameByMaxProductCountAsync()
         {
-            throw new NotImplementedException();
+            string query = "Select City From Product group by City order by Count(*) desc";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryFirstOrDefaultAsync<string>(query);
+                return values;
+            }
+        }
+        public async Task<int> DifferentCityCountAsync()
+        {
+            string query = "Select Count(Distinct(City)) From Product";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryFirstOrDefaultAsync<int>(query);
+                return values;
+            }
         }
 
-        public Task<int> DifferentCityCountAsync()
+        public async Task<string> EmployeeNameByMaxProductCountAsync()
         {
-            throw new NotImplementedException();
+            string query = "Select top(1) emp.Name From Product as pr inner join Employee as emp on pr.EmployeeID=emp.EmployeeID group by emp.Name order by Count(*) desc";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryFirstOrDefaultAsync<string>(query);
+                return values;
+            }
         }
 
-        public Task<string> EmployeeNameByMaxProductCountAsync()
+        public async Task<decimal> LastProductPriceAsync()
         {
-            throw new NotImplementedException();
+            string query = "Select Top(1) Price From Product Order By ProductId Desc";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryFirstOrDefaultAsync<decimal>(query);
+                return values;
+            }
         }
 
-        public Task<decimal> LastProductPriceAsync()
+        public async Task<string> NewestBuildingYearAsync()
         {
-            throw new NotImplementedException();
+            string query = "Select Top(1) BuildYear Price From ProductDetails Order By BuildYear Desc";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryFirstOrDefaultAsync<string>(query);
+                return values;
+            }
         }
 
-        public Task<string> NewestBuildingYearAsync()
+        public async Task<string> OldestBuildingYearAsync()
         {
-            throw new NotImplementedException();
+            string query = "Select Top(1) BuildYear Price From ProductDetails Order By BuildYear Asc";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryFirstOrDefaultAsync<string>(query);
+                return values;
+            }
         }
 
-        public Task<string> OldestBuildingYearAsync()
+        public async Task<int> PassiveCategoryCountAsync()
         {
-            throw new NotImplementedException();
+            string query = "Select Count(*) From Category where CategoryStatus=0";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryFirstOrDefaultAsync<int>(query);
+                return values;
+            }
         }
 
-        public Task<int> PassiveCategoryCountAsync()
+        public async Task<int> ProductCountAsync()
         {
-            throw new NotImplementedException();
-        }
-
-        public Task<int> ProductCountAsync()
-        {
-            throw new NotImplementedException();
+            string query = "Select Count(*) From Product";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryFirstOrDefaultAsync<int>(query);
+                return values;
+            }
         }
     }
 }

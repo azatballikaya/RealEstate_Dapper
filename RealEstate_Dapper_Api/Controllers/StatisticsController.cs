@@ -54,5 +54,46 @@ namespace RealEstate_Dapper_Api.Controllers
         {
             return Ok(await _statisticRepository.CategoryNameByMaxProductCountAsync());
         }
+        [HttpGet("CityNameByMaxProductCount")]
+
+        public async Task<IActionResult> CityNameByMaxProductCount()
+        {
+            return Ok(await _statisticRepository.CityNameByMaxProductCountAsync());
+        }
+        [HttpGet("DifferentCityCount")]
+        public async Task<IActionResult> DifferentCityCount()
+        {
+            return Ok(await _statisticRepository.DifferentCityCountAsync());
+        }
+        [HttpGet("EmployeeNameByMaxProductCount")]
+        public async Task<IActionResult> EmployeeNameByMaxProductCount()
+        {
+            return Ok(await _statisticRepository.EmployeeNameByMaxProductCountAsync());
+        }
+        [HttpGet("LastProductPrice")]
+        public async Task<IActionResult> LastProductPrice()
+        {
+            return Ok(await _statisticRepository.LastProductPriceAsync());
+        }
+        [HttpGet("NewestBuildingYear")]
+        public async Task<IActionResult> NewestBuildingYear()
+        {
+            return Ok(await _statisticRepository.NewestBuildingYearAsync());
+        }
+        [HttpGet("OldestBuildingYear")]
+        public async Task<IActionResult> OldestBuildingYear()
+        {
+            return Ok(await _statisticRepository.OldestBuildingYearAsync());
+        }
+        [HttpGet("PassiveCategoryCount")]
+        public async Task<IActionResult> PassiveCategoryCount()
+        {
+            return Ok(await _statisticRepository.PassiveCategoryCountAsync());
+        }
+        [HttpGet("ProductCount")]
+        public async Task<IActionResult> ProductCount()
+        {
+            return Ok(await _statisticRepository.ProductCountAsync());
+        }
     }
 }

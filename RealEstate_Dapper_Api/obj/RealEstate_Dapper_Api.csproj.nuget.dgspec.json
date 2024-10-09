@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj": {}
+    "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj": {
+    "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj",
+        "projectUniqueName": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj",
         "projectName": "RealEstate_Dapper_Api",
-        "projectPath": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj",
-        "packagesPath": "C:\\Users\\azatb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\obj\\",
+        "projectPath": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj",
+        "packagesPath": "C:\\Users\\Azat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\azatb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Azat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "c:\\program files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
