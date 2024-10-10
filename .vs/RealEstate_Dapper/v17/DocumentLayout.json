@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\",
+  "WorkspaceRootPath": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azat\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\views\\whoweare\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\whoweare\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\views\\popularlocation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\popularlocation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azat\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\views\\whoweare\\createwhowearedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\whoweare\\createwhowearedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azat\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\controllers\\whowearecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\controllers\\whowearecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azat\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\views\\whoweare\\updatewhowearedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\whoweare\\updatewhowearedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azat\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\viewcomponents\\default\\homepage\\_defaultwhoweareviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\viewcomponents\\default\\homepage\\_defaultwhoweareviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\controllers\\popularlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\controllers\\popularlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,65 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\WhoWeAre\\Index.cshtml",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\WhoWeAre\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\WhoWeAre\\Index.cshtml",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\WhoWeAre\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAkAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\PopularLocation\\Index.cshtml",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\PopularLocation\\Index.cshtml",
+              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\PopularLocation\\Index.cshtml",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\PopularLocation\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T11:03:20.972Z",
+              "WhenOpened": "2024-10-10T14:15:53.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateWhoWeAreDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\WhoWeAre\\CreateWhoWeAreDetail.cshtml",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\WhoWeAre\\CreateWhoWeAreDetail.cshtml",
-              "ToolTip": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\WhoWeAre\\CreateWhoWeAreDetail.cshtml",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\WhoWeAre\\CreateWhoWeAreDetail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T10:55:26.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateWhoWeAreDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\WhoWeAre\\UpdateWhoWeAreDetail.cshtml",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\WhoWeAre\\UpdateWhoWeAreDetail.cshtml",
-              "ToolTip": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\WhoWeAre\\UpdateWhoWeAreDetail.cshtml",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\WhoWeAre\\UpdateWhoWeAreDetail.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T10:54:30.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WhoWeAreController.cs",
-              "DocumentMoniker": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\WhoWeAreController.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\WhoWeAreController.cs",
-              "ToolTip": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\WhoWeAreController.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\WhoWeAreController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAswFEAAAANAAAAAAAAAA==",
+              "Title": "PopularLocationController.cs",
+              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\PopularLocationController.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\PopularLocationController.cs",
+              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\PopularLocationController.cs",
+              "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\PopularLocationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T10:33:19.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_DefaultWhoWeAreViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\ViewComponents\\Default\\HomePage\\_DefaultWhoWeAreViewComponent.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\ViewComponents\\Default\\HomePage\\_DefaultWhoWeAreViewComponent.cs",
-              "ToolTip": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\ViewComponents\\Default\\HomePage\\_DefaultWhoWeAreViewComponent.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\ViewComponents\\Default\\HomePage\\_DefaultWhoWeAreViewComponent.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T11:00:51.4Z",
+              "WhenOpened": "2024-10-10T14:12:51.79Z",
               "EditorCaption": ""
             }
           ]

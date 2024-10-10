@@ -41,14 +41,29 @@ namespace RealEstate_Dapper_Api.Repositories.ServiceRepository
             }
         }
 
-        public Task<GetByIdServiceDto> GetServiceByIdAsync(int id)
+        public async Task<GetByIdServiceDto> GetServiceByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            string query = "Select * From Services Where ServiceID=@serviceID";
+            var parameters=new DynamicParameters();
+            parameters.Add("@serviceID", id);
+            using (var connection = _context.CreateConnection())
+            {
+                var value = await connection.QueryFirstOrDefaultAsync<GetByIdServiceDto>(query,parameters);
+                return value;
+            }
         }
 
-        public Task UpdateServiceAsync(UpdateServiceDto updateServiceDto)
+        public async Task UpdateServiceAsync(UpdateServiceDto updateServiceDto)
         {
-            throw new NotImplementedException();
+            string query = "Update Services Set ServiceName=@serviceName,ServiceStatus=@serviceStatus Where ServiceID=@serviceID";
+            var parameters = new DynamicParameters();
+            parameters.Add("@serviceName", updateServiceDto.ServiceName);
+            parameters.Add("@serviceStatus", updateServiceDto.ServiceStatus);
+            parameters.Add("@serviceID", updateServiceDto.ServiceID);
+            using (var connection = _context.CreateConnection())
+            {
+                await connection.ExecuteAsync(query, parameters);
+            }
         }
     }
 }

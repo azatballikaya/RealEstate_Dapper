@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+@model CreateBottomGridDto
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h1>Yeni Öne Çıkan Alan Ekleme Sayfası</h1>
+                <div class="table-responsive">
+                    <form action="/BottomGrid/CreateBottomGrid" method="post">
+                        <label>Başlık</label>
+                        <input asp-for="Title" class="form-control" />
+                        <br />  
+                        <label>İkon</label>
+                        <input asp-for="Icon" class="form-control" />
+                        <br />
+                        <label>Açıklama</label>
+                        <input asp-for="Description" class="form-control" />
+                        <br />
+
+                        <button type="submit" class="btn btn-success">Öne Çıkan Alanı Kaydet</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

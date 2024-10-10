@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj": {}
+    "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj": {
+    "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
+        "projectUniqueName": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
         "projectName": "RealEstate_Dapper_UI",
-        "projectPath": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
-        "packagesPath": "C:\\Users\\Azat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\obj\\",
+        "projectPath": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
+        "packagesPath": "C:\\Users\\azatb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Azat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\azatb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\program files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,7 +48,7 @@
           "dependencies": {
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.6, )"
             }
           },
           "imports": [
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

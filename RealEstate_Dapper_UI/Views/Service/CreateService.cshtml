@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+@model CreateServiceDto
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h1>Yeni Hizmet Ekleme Sayfası</h1>
+                <div class="table-responsive">
+                    <form action="/Service/CreateService" method="post">
+                        <label>Hizmet Adı</label>
+                        <input asp-for="ServiceName" class="form-control" />
+                        <br />
+                      
+                        <button type="submit" class="btn btn-success">Hizmeti Kaydet</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
