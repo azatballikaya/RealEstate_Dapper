@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\views\\popularlocation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\views\\popularlocation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_ui\\controllers\\popularlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B53AD-7967-4773-A635-D7AD436B0D69}|RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj|solutionrelative:realestate_dapper_ui\\controllers\\popularlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC731AFD-9DAA-436B-B54F-F8EFD0430E9A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\azatb\\documents\\github\\realestate_dapper\\realestate_dapper_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC731AFD-9DAA-436B-B54F-F8EFD0430E9A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\PopularLocation\\Index.cshtml",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Views\\PopularLocation\\Index.cshtml",
-              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Views\\PopularLocation\\Index.cshtml",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Views\\PopularLocation\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T14:15:53.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PopularLocationController.cs",
-              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\PopularLocationController.cs",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_UI\\Controllers\\PopularLocationController.cs",
-              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\Controllers\\PopularLocationController.cs",
-              "RelativeToolTip": "RealEstate_Dapper_UI\\Controllers\\PopularLocationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T14:12:51.79Z",
+              "WhenOpened": "2024-10-11T14:17:40.866Z",
               "EditorCaption": ""
             }
           ]

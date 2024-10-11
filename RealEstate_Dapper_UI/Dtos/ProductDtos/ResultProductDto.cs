@@ -11,5 +11,6 @@
         public string Type { get; set; }
         public string Address { get; set; }
         public int ProductCategory { get; set; }
+        public bool DealOfTheDay { get; set; }
     }
 }

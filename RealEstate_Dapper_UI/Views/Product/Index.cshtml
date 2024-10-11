@@ -19,6 +19,7 @@
                                 <th scope="col">Kategori</th>
                                 <th scope="col">Fiyat</th>
                                 <th scope="col">Tür</th>
+                                <th scope="col">Günün Fırsatı</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -36,6 +37,7 @@
                                     <td><a href="/Product/DeleteProduct/@item.ProductId" class="btn btn-outline-danger">Sil</a></td>
                                     <td><a href="/Product/UpdateProduct/@item.ProductId" class="btn btn-outline-success">Güncelle</a></td>
                                     <td><a href="/Product/ProductDetail/@item.ProductId" class="btn btn-outline-success">Sitede Gör</a></td>
+                                    <td><a href="/Product/DealOfTheDay/@item.ProductId" class="btn btn-outline-secondary">@(item.DealOfTheDay ? "Pasif Yap" : "Aktif Yap")</a></td>
 
                                 </tr>
                             }
