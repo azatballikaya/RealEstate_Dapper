@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RealEstate_Dapper_Api.Dtos.ProductDtos;
 using RealEstate_Dapper_Api.Repositories.ProductRepository;
 
 namespace RealEstate_Dapper_Api.Controllers
@@ -38,6 +39,13 @@ namespace RealEstate_Dapper_Api.Controllers
         {
             await _productRepository.ProductDealOfTheDayStatusChangeToTrueAsync(id);
             return Ok();
+        }
+        [HttpGet("Last5ProductByRentList")]
+        public async Task<IActionResult> Last5Product()
+        {
+            var values=await _productRepository.GetLast5ProductsByRentAsync();
+         
+            return Ok(values);
         }
     }
 }

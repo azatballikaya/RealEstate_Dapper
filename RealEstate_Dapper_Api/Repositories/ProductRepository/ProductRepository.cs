@@ -33,6 +33,16 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository
             }
         }
 
+        public async Task<List<ResultLast5ProductByRentWithCategoryDto>> GetLast5ProductsByRentAsync()
+        {
+            string query = "Select Top(5) * From Product inner join Category on Product.ProductCategory=Category.CategoryID Order by ProductId Desc";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryAsync<ResultLast5ProductByRentWithCategoryDto>(query);
+                return values.ToList();
+            }
+        }
+
         public async Task ProductDealOfTheDayStatusChangeToFalseAsync(int id)
         {
             string query = "Update Product Set DealOfTheDay=0 Where ProductId=@productID";

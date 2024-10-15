@@ -8,6 +8,6 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository
         Task<List<ResultProductWithCategoryDto>> GetAllProductsWithCategoriesAsync();
         Task ProductDealOfTheDayStatusChangeToTrueAsync(int id);
         Task ProductDealOfTheDayStatusChangeToFalseAsync(int id);
-        
+        Task<List<ResultLast5ProductByRentWithCategoryDto>> GetLast5ProductsByRentAsync();
     }
 }
