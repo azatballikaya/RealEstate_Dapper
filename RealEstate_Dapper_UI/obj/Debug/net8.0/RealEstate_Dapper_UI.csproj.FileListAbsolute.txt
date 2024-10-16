@@ -452,3 +452,4 @@ C:\Users\Azat\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\obj\Debug\
 C:\Users\Azat\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\obj\Debug\net8.0\ref\RealEstate_Dapper_UI.dll
 C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\libman.json

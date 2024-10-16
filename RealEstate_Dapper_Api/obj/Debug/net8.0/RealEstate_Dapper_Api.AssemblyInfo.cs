@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RealEstate_Dapper_Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3c22e2064ac1108eddc790a29be2b6c49650f41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+923a8127a8a2f057a53b06476ad82110d9e8a586")]
 [assembly: System.Reflection.AssemblyProductAttribute("RealEstate_Dapper_Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RealEstate_Dapper_Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
