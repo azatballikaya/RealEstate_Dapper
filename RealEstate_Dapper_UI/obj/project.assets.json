@@ -5566,19 +5566,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\azatb\\.nuget\\packages\\": {}
+    "C:\\Users\\Azat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
+      "projectUniqueName": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
       "projectName": "RealEstate_Dapper_UI",
-      "projectPath": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
-      "packagesPath": "C:\\Users\\azatb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\azatb\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\obj\\",
+      "projectPath": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\RealEstate_Dapper_UI.csproj",
+      "packagesPath": "C:\\Users\\Azat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Azat\\Documents\\GitHub\\RealEstate_Dapper\\RealEstate_Dapper_UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\azatb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Azat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5634,7 +5634,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

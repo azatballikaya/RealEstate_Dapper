@@ -24,7 +24,7 @@ namespace RealEstate_Dapper_UI.Controllers
                 var values = JsonConvert.DeserializeObject<List<ResultEmployeeDto>>(jsonData);
                 return View(values);
             }
-            return View();
+            return NotFound();
         }
 
         [HttpGet]
