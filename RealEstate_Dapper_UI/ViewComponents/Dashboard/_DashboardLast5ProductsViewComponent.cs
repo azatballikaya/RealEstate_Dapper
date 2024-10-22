@@ -17,11 +17,11 @@ namespace RealEstate_Dapper_UI.ViewComponents.Dashboard
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("http://localhost:5031/api/Products/Last5ProductByRentList");
+            var responseMessage = await client.GetAsync("http://localhost:5031/api/Products/Last5ProductList");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultLast5ProductByRentWithCategoryDto>>(jsonData);
+                var values = JsonConvert.DeserializeObject<List<ResultLast5ProductWithCategoryDto>>(jsonData);
                 return View(values);
             }
             return View();

@@ -40,18 +40,30 @@ namespace RealEstate_Dapper_Api.Controllers
             await _productRepository.ProductDealOfTheDayStatusChangeToTrueAsync(id);
             return Ok();
         }
-        [HttpGet("Last5ProductByRentList")]
+        [HttpGet("Last5ProductList")]
         public async Task<IActionResult> Last5Product()
         {
-            var values=await _productRepository.GetLast5ProductsByRentAsync();
+            var values=await _productRepository.GetLast5ProductsAsync();
          
             return Ok(values);
         }
-        [HttpGet("ProductAdvertsListByEmployeeId/{id}")]
-        public async Task<IActionResult> ProductAdvertsListByEmployeeId(int id)
+        [HttpGet("ProductAdvertsListByEmployeeIdByTrue/{id}")]
+        public async Task<IActionResult> ProductAdvertsListByEmployeeIdByTrue(int id)
         {
-            var values=await _productRepository.GetProductAdvertListByEmployeeIdAsync(id);
+            var values=await _productRepository.GetProductAdvertListByEmployeeIdByTrueAsync(id);
             return Ok(values);
+        }
+        [HttpGet("ProductAdvertsListByEmployeeIdByFalse/{id}")]
+        public async Task<IActionResult> ProductAdvertsListByEmployeeIdByFalse(int id)
+        {
+            var values = await _productRepository.GetProductAdvertListByEmployeeIdByFalseAsync(id);
+            return Ok(values);
+        }
+        [HttpPost]
+        public async Task<IActionResult> CreateProduct(CreateProductDto createProductDto)
+        {
+            await _productRepository.CreateProductAsync(createProductDto);
+            return Ok("İlan Başarıyla Eklendi...");
         }
     }
 }

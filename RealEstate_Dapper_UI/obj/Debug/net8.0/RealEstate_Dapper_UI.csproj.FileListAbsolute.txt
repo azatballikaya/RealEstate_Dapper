@@ -456,3 +456,12 @@ C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug
 C:\Users\Azat\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\libman.json
 C:\Users\Azat\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Azat\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\azatb\Documents\GitHub\RealEstate_Dapper\RealEstate_Dapper_UI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

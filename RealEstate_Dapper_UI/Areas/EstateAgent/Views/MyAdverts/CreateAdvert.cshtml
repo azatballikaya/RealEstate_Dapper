@@ -1,0 +1,46 @@
+﻿@model CreateProductDto
+
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h1>Yeni Kategori Ekleme Sayfası</h1>
+                <div class="table-responsive">
+                    <form action="/Product/CreateProduct" method="post">
+                        <label>İlan Başlığı</label>
+                        <input asp-for="Title" class="form-control" />
+                        <br />
+                        <label>Şehir</label>
+                        <input asp-for="City" class="form-control" />
+                        <br />
+                        <label>İlçe</label>
+                        <input asp-for="District" class="form-control" />
+                        <br />
+                        <label>Kategori</label>
+                        @Html.DropDownListFor(x => x.ProductCategory, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
+                        <br />
+                        <label>Fiyat</label>
+                        <input asp-for="Price" class="form-control" />
+                        <br />
+                        <label>Tür</label>
+                        <input asp-for="Type" class="form-control" />
+                        <br />
+                        <label>Kapak Fotoğrafı</label>
+                        <input asp-for="CoverImage" class="form-control" />
+                        <br />
+                        <label>İlan Açık Adresi </label>
+                        <textarea asp-for="Address" class="form-control" rows="5" /></textarea>
+                        <br />
+
+                        <button type="submit" class="btn btn-success">Kategoriyi Kaydet</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

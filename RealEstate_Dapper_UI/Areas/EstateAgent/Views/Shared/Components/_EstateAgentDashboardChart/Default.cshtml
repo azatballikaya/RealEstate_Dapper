@@ -1,0 +1,81 @@
+﻿@model List<ResultEstateAgentDashboardChartDto>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <style>
+        .chart-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px; /* Added for spacing */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chart-container">
+        
+        <canvas id="myChart1" style="max-width: 500px"></canvas>
+        <canvas id="myChart2" style="max-width: 500px"></canvas>
+    </div>
+
+    <script>
+        var xValues1 = @Html.Raw(Json.Serialize(Model.Select(item => item.City)));
+        var yValues1 = @Html.Raw(Json.Serialize(Model.Select(item => item.CityCount)));
+
+        
+
+        var barColors = ["rgb(106, 212, 221)", "rgb(127, 199, 217)", "rgb(54, 84, 134)", "rgb(134, 182, 246)", "rgb(0, 141, 218)"];
+        
+        new Chart("myChart1", {
+            type: "bar",
+            data: {
+                labels: xValues1,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues1
+                }]
+            },
+            options: {
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: "Şehir - İlan İstatistiği"
+                }
+            }
+        });
+
+    
+    </script>
+    <script>
+        var xValues2 = @Html.Raw(Json.Serialize(Model.Select(item => item.City)));
+        var yValues2 = @Html.Raw(Json.Serialize(Model.Select(item => item.CityCount)));
+
+
+
+        var barColors2 = ["rgb(106, 212, 221)", "rgb(127, 199, 217)", "rgb(54, 84, 134)", "rgb(134, 182, 246)", "rgb(0, 141, 218)"];
+
+        new Chart("myChart2", {
+            type: "bar",
+            data: {
+                labels: xValues2,
+                datasets: [{
+                    backgroundColor: barColors2,
+                    data: yValues2
+                }]
+            },
+            options: {
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: "Şehir - İlan İstatistiği"
+                }
+            }
+        });
+
+
+    </script>
+
+</body>
+</html>

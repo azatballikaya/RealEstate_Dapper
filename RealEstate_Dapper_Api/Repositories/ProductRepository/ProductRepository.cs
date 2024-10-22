@@ -33,24 +33,35 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository
             }
         }
 
-        public async Task<List<ResultLast5ProductByRentWithCategoryDto>> GetLast5ProductsByRentAsync()
+        public async Task<List<ResultLast5ProductWithCategoryDto>> GetLast5ProductsAsync()
         {
             string query = "Select Top(5) * From Product inner join Category on Product.ProductCategory=Category.CategoryID Order by ProductId Desc";
             using (var connection = _context.CreateConnection())
             {
-                var values = await connection.QueryAsync<ResultLast5ProductByRentWithCategoryDto>(query);
+                var values = await connection.QueryAsync<ResultLast5ProductWithCategoryDto>(query);
                 return values.ToList();
             }
         }
 
-        public async Task<List<ResultProductAdvertListWithCategoryByEmployeeIdDto>> GetProductAdvertListByEmployeeIdAsync(int id)
+        public async Task<List<ResultProductAdvertListWithCategoryByEmployeeIdDto>> GetProductAdvertListByEmployeeIdByTrueAsync(int id)
         {
-            string query = "Select Top(5) * From Product inner join Category on Product.ProductCategory=Category.CategoryID Where EmployeeID=@employeeID";
+            string query = "Select Top(5) * From Product inner join Category on Product.ProductCategory=Category.CategoryID Where EmployeeID=@employeeID and ProductStatus=1";
             var parameters = new DynamicParameters();
             parameters.Add("@employeeID", id);
             using (var connection = _context.CreateConnection())
             {
                 var values = await connection.QueryAsync<ResultProductAdvertListWithCategoryByEmployeeIdDto>(query,parameters);
+                return values.ToList();
+            }
+        }
+        public async Task<List<ResultProductAdvertListWithCategoryByEmployeeIdDto>> GetProductAdvertListByEmployeeIdByFalseAsync(int id)
+        {
+            string query = "Select Top(5) * From Product inner join Category on Product.ProductCategory=Category.CategoryID Where EmployeeID=@employeeID  and ProductStatus=0";
+            var parameters = new DynamicParameters();
+            parameters.Add("@employeeID", id);
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryAsync<ResultProductAdvertListWithCategoryByEmployeeIdDto>(query, parameters);
                 return values.ToList();
             }
         }
@@ -75,6 +86,30 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository
             {
                 await connection.ExecuteAsync(query, parameters);
             }
+        }
+
+        public async Task CreateProductAsync(CreateProductDto createProductDto)
+        {
+            string query = "Insert Into Product (Title,Price,CoverImage,City,District,Address,Description,Type,ProductCategory,EmployeeID,DealOfTheDay,AdvertiesmentDate,ProductStatus) VALUES (@Title,@Price,@CoverImage,@City,@District,@Address,@Description,@Type,@ProductCategory,@EmployeeID,@DealOfTheDay,@AdvertiesmentDate,@ProductStatus)";
+            var parameters = new DynamicParameters();
+            parameters.Add("@Title", createProductDto.Title);
+            parameters.Add("@Price", createProductDto.Price);
+            parameters.Add("@CoverImage", createProductDto.CoverImage);
+            parameters.Add("@City", createProductDto.City);
+            parameters.Add("@District", createProductDto.District);
+            parameters.Add("@Address", createProductDto.Address);
+            parameters.Add("@Type", createProductDto.Type);
+            parameters.Add("@Description", createProductDto.Description);
+            parameters.Add("@ProductCategory", createProductDto.ProductCategory);
+            parameters.Add("@EmployeeID", createProductDto.EmployeeID);
+            parameters.Add("@DealOfTheDay", createProductDto.DealOfTheDay);
+            parameters.Add("@AdvertiesmentDate", createProductDto.AdvertiesmentDate);
+            parameters.Add("@ProductStatus", createProductDto.ProductStatus);
+            using (var connection = _context.CreateConnection())
+            {
+                await connection.ExecuteAsync(query,parameters);
+            }
+
         }
     }
 }
