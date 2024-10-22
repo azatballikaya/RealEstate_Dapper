@@ -40,7 +40,8 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapAreaControllerRoute(name: "default",
+
+app.MapAreaControllerRoute(name: "EstateAgent",
     areaName: "EstateAgent",
     pattern: "EstateAgent/{controller=Home}/{action=Index}/{id?}");
 

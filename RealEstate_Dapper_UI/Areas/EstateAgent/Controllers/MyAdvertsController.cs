@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using RealEstate_Dapper_UI.Dtos.ProductDtos;
 using RealEstate_Dapper_UI.Services;
 using System.Net.Http;
+using System.Text;
 
 namespace RealEstate_Dapper_UI.Areas.EstateAgent.Controllers
 {
@@ -63,5 +64,24 @@ namespace RealEstate_Dapper_UI.Areas.EstateAgent.Controllers
             }
             return View();
         }
+        [HttpPost]
+        public async Task<IActionResult> CreateAdvert(CreateProductDto createCategoryDto)
+        {
+            createCategoryDto.DealOfTheDay = false;
+            createCategoryDto.AdvertiesmentDate = DateTime.Now;
+            createCategoryDto.ProductStatus = true;
+            createCategoryDto.EmployeeID = int.Parse(_loginService.GetUserId);
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createCategoryDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("http://localhost:5031/api/Products", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return Redirect("/EstateAgent/MyAdverts/ActiveAdverts");
+            }
+            return View();
+        }
+   
+       
     }
 }

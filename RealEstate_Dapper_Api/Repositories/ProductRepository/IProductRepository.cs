@@ -1,4 +1,5 @@
-﻿using RealEstate_Dapper_Api.Dtos.ProductDtos;
+﻿using RealEstate_Dapper_Api.Dtos.ProductDetailDtos;
+using RealEstate_Dapper_Api.Dtos.ProductDtos;
 
 namespace RealEstate_Dapper_Api.Repositories.ProductRepository
 {
@@ -12,5 +13,7 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository
         Task<List<ResultProductAdvertListWithCategoryByEmployeeIdDto>> GetProductAdvertListByEmployeeIdByTrueAsync(int id);
         Task<List<ResultProductAdvertListWithCategoryByEmployeeIdDto>> GetProductAdvertListByEmployeeIdByFalseAsync(int id);
         Task CreateProductAsync(CreateProductDto createProductDto);
+        Task<GetProductByIdDto> GetProductByIdAsync(int id);
+        Task<GetProductDetailByProductIdDto> GetProductDetailByProductIdAsync(int id);
     }
 }

@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\EstateAgent\Data\" />
+    <Folder Include="Areas\EstateAgent\Dtos\ProductDtos\" />
     <Folder Include="Areas\EstateAgent\Models\" />
   </ItemGroup>
 
