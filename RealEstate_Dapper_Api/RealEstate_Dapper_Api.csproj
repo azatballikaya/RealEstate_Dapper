@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Dtos\AmenityDtos\" />
     <Folder Include="Models\" />
   </ItemGroup>
 

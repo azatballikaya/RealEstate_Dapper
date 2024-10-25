@@ -136,5 +136,19 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository
                 return values;
             }
         }
+
+        public async Task<List<ResultProductWithSearchDto>> GetProductListWithSearchAsync(string searchKeyValue, int categoryId, string city)
+        {
+            string query = "Select * From Product Where Title like '%"+searchKeyValue+"%' and ProductCategory=@categoryId and City='@city' ";
+                  var parameters = new DynamicParameters();
+            //parameters.Add("@searchKeyValue", searchKeyValue);
+            parameters.Add("@categoryId", categoryId);
+            parameters.Add("@city", city);
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryAsync<ResultProductWithSearchDto>(query, parameters);
+                return values.ToList();
+            }
+        }
     }
 }
