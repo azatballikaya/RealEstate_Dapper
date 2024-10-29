@@ -139,14 +139,34 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository
 
         public async Task<List<ResultProductWithSearchDto>> GetProductListWithSearchAsync(string searchKeyValue, int categoryId, string city)
         {
-            string query = "Select * From Product Where Title like '%"+searchKeyValue+"%' and ProductCategory=@categoryId and City='@city' ";
+            string query = "Select * From Product Where Title like '%" + searchKeyValue + "%' And ProductCategory=@propertyCategoryId And City=@city ";
                   var parameters = new DynamicParameters();
             //parameters.Add("@searchKeyValue", searchKeyValue);
-            parameters.Add("@categoryId", categoryId);
+            parameters.Add("@propertyCategoryId", categoryId);
             parameters.Add("@city", city);
             using (var connection = _context.CreateConnection())
             {
                 var values = await connection.QueryAsync<ResultProductWithSearchDto>(query, parameters);
+                return values.ToList();
+            }
+        }
+
+        public async Task<List<ResultProductWithCategoryDto>> GetProductByDealOfTheDayTrueWithCategoryAsync()
+        {
+            string query = "Select * From Product inner join Category ON Product.ProductCategory=Category.CategoryID Where DealOfTheDay=1";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryAsync<ResultProductWithCategoryDto>(query);
+                return values.ToList();
+            }
+        }
+
+        public async Task<List<ResultLast3ProductWithCategoryDto>> GetLast3ProductsAsync()
+        {
+            string query = "Select Top(3) * From Product inner join Category on Product.ProductCategory=Category.CategoryID Order by ProductId Desc";
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryAsync<ResultLast3ProductWithCategoryDto>(query);
                 return values.ToList();
             }
         }

@@ -47,7 +47,7 @@
         <div class="row">
             <div class="col-lg-8 w3l-news">
                 <div class="blog-single-post">
-                    @await Component.InvokeAsync("_DefaultPropertySingleSlider")
+                    @await Component.InvokeAsync("_DefaultPropertySingleSlider",new{id=ViewBag.Id})
                    
 
                     <div class="single-post-content">
